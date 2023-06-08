@@ -1,6 +1,8 @@
 import Navbar from './components/Navbar';
 import heroDesktop from './assets/desktop/image-hero.jpg';
 import heroMobile from './assets/mobile/image-hero.jpg';
+import interactiveDesktop from './assets/desktop/image-interactive.jpg';
+import interactiveMobile from './assets/mobile/image-interactive.jpg';
 
 function App() {
   return (
@@ -22,6 +24,29 @@ function App() {
               <br className="md:hidden" /> deliver
             </h1>
           </header>
+        </section>
+
+        <section
+          id="about"
+          className="-scroll-mt-20 bg-white px-6 py-20 lg:py-40"
+        >
+          <div className="relative mx-auto max-w-6xl">
+            <picture>
+              <source media="(min-width: 768px)" srcSet={interactiveDesktop} />
+              <img src={interactiveMobile} alt="Man playing with VR headset" />
+            </picture>
+            <header className="mx-auto bg-white px-4 py-10 text-center md:max-w-3xl md:px-10 lg:absolute lg:right-0 lg:top-1/2 lg:max-w-xl lg:px-14 lg:py-20 lg:text-left">
+              <h2 className="font-Josefin text-3xl uppercase lg:text-5xl">
+                The leader in interactive VR
+              </h2>
+              <p className="mt-5 font-Alata text-gray-500">
+                Founded in 2011, Loopstudios has been producing world-class
+                virtual reality projects for some of the best companies around
+                the globe. Our award-winning creations have transformed
+                businesses through digital experiences that bind to their brand.
+              </p>
+            </header>
+          </div>
         </section>
       </main>
     </div>
