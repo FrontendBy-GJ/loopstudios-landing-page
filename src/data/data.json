@@ -5,56 +5,56 @@
       "title": "Deep earth",
       "image": {
         "desktop": "public/assets/desktop/image-deep-earth.jpg",
-        "mobile": "public/assets/mobile/image-deep-earth.jpg"
+        "mobile": "/assets/mobile/image-deep-earth.jpg"
       }
     },
     {
       "title": "Night arcade",
       "image": {
         "desktop": "public/assets/desktop/image-night-arcade.jpg",
-        "mobile": "public/assets/mobile/image-night-arcade.jpg"
+        "mobile": "/assets/mobile/image-night-arcade.jpg"
       }
     },
     {
       "title": "Soccer team VR",
       "image": {
         "desktop": "public/assets/desktop/image-soccer-team.jpg",
-        "mobile": "public/assets/mobile/image-soccer-team.jpg"
+        "mobile": "/assets/mobile/image-soccer-team.jpg"
       }
     },
     {
       "title": "The grid",
       "image": {
         "desktop": "public/assets/desktop/image-grid.jpg",
-        "mobile": "public/assets/mobile/image-grid.jpg"
+        "mobile": "/assets/mobile/image-grid.jpg"
       }
     },
     {
       "title": "From up above VR",
       "image": {
         "desktop": "public/assets/desktop/image-from-above.jpg",
-        "mobile": "public/assets/mobile/image-from-above.jpg"
+        "mobile": "/assets/mobile/image-from-above.jpg"
       }
     },
     {
       "title": "Pocket borealis",
       "image": {
         "desktop": "public/assets/desktop/image-pocket-borealis.jpg",
-        "mobile": "public/assets/mobile/image-pocket-borealis.jpg"
+        "mobile": "/assets/mobile/image-pocket-borealis.jpg"
       }
     },
     {
       "title": "The curiosity",
       "image": {
         "desktop": "public/assets/desktop/image-curiosity.jpg",
-        "mobile": "public/assets/mobile/image-curiosity.jpg"
+        "mobile": "/assets/mobile/image-curiosity.jpg"
       }
     },
     {
       "title": "Make it fisheye",
       "image": {
         "desktop": "public/assets/desktop/image-fisheye.jpg",
-        "mobile": "public/assets/mobile/image-fisheye.jpg"
+        "mobile": "/assets/mobile/image-fisheye.jpg"
       }
     }
   ]
