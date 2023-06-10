@@ -3,6 +3,7 @@ import Logo from '../assets/Logo';
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 import MobileMenu from './MobileMenu';
 import { links } from '../data/data.json';
+import Link from './Link';
 
 const Navbar = () => {
   const [openMobileMenu, setOpenMobileMenu] = useState(false);
@@ -56,14 +57,7 @@ const Navbar = () => {
         <nav className="hidden md:block">
           <ul className="flex gap-7 font-Alata text-white">
             {links.map((link) => (
-              <li key={link}>
-                <a
-                  href={`#${link.toLowerCase()}`}
-                  className="relative before:absolute before:-bottom-3 before:left-1/2 before:-translate-x-1/2 before:rounded-md before:bg-white before:hover:h-0.5 before:hover:w-1/2"
-                >
-                  {link}
-                </a>
-              </li>
+              <Link key={link} link={link} />
             ))}
           </ul>
         </nav>
