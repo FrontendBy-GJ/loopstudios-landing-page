@@ -30,7 +30,7 @@ function App() {
 
         <section
           id="about"
-          className="-scroll-mt-20 bg-white px-6 py-20 lg:py-40"
+          className="-scroll-mt-20 bg-white px-6 py-5 lg:py-40"
         >
           <div className="relative mx-auto max-w-6xl">
             <picture>
