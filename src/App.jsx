@@ -4,6 +4,7 @@ import heroMobile from './assets/mobile/image-hero.jpg';
 import interactiveDesktop from './assets/desktop/image-interactive.jpg';
 import interactiveMobile from './assets/mobile/image-interactive.jpg';
 import Gallery from './components/Gallery';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -69,6 +70,8 @@ function App() {
           </div>
         </section>
       </main>
+
+      <Footer />
     </div>
   );
 }
